@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+.container>div {
+  padding: 10px;
+  
+  font-family: Inter;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+.logo{
+  text-align: left;
+}
+.variable{
+  text-align: right;
+}
+body {
+  margin: auto;
+
+}
+html,body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px;
+}
+
+
+
+
+
+
+.container>div{
+  background-color: #292727;
+  
+}
