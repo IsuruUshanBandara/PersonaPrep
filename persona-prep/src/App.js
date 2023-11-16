@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import InsightBank from './pages/InsightBank'
 import InterviewBank from './pages/InterviewBank'
 import NoPage from './pages/NoPage'
+import Template from './components/Template'
 
 
 
@@ -24,14 +25,17 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-          <Route index element={<Home/>} />
+          <Route index element={<Home />} />
           <Route path="/home" element={<Home />}/>
+          <Route path="/template" element={<Template />}/>
           <Route path="/insightbank" element={<InsightBank />}/>
           <Route path="/interviewbank" element={<InterviewBank />}/>
           <Route path="*" element={<NoPage />}/>
         </Routes>
     </BrowserRouter>
   );
+
+  
 }
 
 export default App;
